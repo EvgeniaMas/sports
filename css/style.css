@@ -516,11 +516,18 @@ body {
 #fh5co-subscribe,
 #fh5co-info,
 #fh5co-pricing,
-#fh5co-faqs,
-#fh5co-footer {
+#fh5co-faqs {
   background-color: #fff;
   padding: 7em 0;
 }
+
+#fh5co-footer {
+  background-color: #222;
+  color: #fff;
+  padding: 2em 0;
+}
+
+
 @media screen and (max-width: 768px) {
   #fh5co-features,
   #fh5co-features-2,
@@ -1566,4 +1573,148 @@ span.price {
   margin: auto!important;
   padding-bottom: 38px;
  
+}
+.slider_base {
+  width: 70%;
+  margin:0 auto;
+  background-image: url(../images/slider_back.jpg);
+  background-position: center;
+  background-size: contain;
+  background-color: blue;
+  max-height: 419px;
+
+ 
+}
+
+#sliders {
+  background-color: rgb(255, 180, 0);
+  padding-top: 97px;
+  min-height: 700px;
+  padding-bottom: 116px;
+}
+
+#myCarousel {
+  width: 80%;
+  margin:0 auto;
+
+}
+
+img.slider_items {
+  /*min-height: 495px;*/
+  display: block;
+  
+   height: 50%!important;
+   min-height: 450px;
+   overflow-y: visible;
+   margin-top: -100px!important;
+
+}
+
+.installed_walls {
+  color: #fff;
+  text-align: center;
+}
+
+#about {
+  background-color: #fff;
+}
+
+
+.popup {
+    background: none repeat scroll 0 0 #e1e1e1;
+    border: 1px solid #808040;
+    left: 50%;
+    margin-left: -190px;
+    padding: 25px 20px;
+    position: fixed;
+    top: 80px;
+    width: 390px;
+    min-height:360px; 
+    z-index: 5002;
+    display: none;
+}
+
+#back_call_popup {
+  
+  height: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 400px;
+
+}
+
+
+.popup h4 {
+    margin-bottom: 4px;
+  }
+  .popup form {
+    padding: 30px 0 0 0;
+  }
+  .popup input[type="text"]{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.87);
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #D9D9D9;
+      display: inline-block;
+      height: 60px;
+      line-height: 60px;
+      padding: 0;
+      vertical-align: middle;
+      color: #747373;
+      text-align: left;
+      font-weight: bold;
+      font-size: 1rem;
+      padding-left: 12px;
+  }
+  
+  
+  .popup .alignCenter {
+    margin-top: 30px;
+  }
+  .popup textarea {
+    display: block;    
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    
+  }
+
+
+#blindLayer {
+background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+bottom: 0;
+left: 0;
+position: fixed;
+right: 0;
+top: 0;
+z-index: 3001;
+display: none;
+height: 100%;
+width: 100%;
+}
+
+.thanks {
+  position: relative;
+  color: #fff;
+  margin-top: 30vh;
+  font-size: 3rem;  
+  line-height: 50px;
+  text-align: center;
+   z-index: 81;
+   
+}
+
+.thanks_text {
+  position: relative;
+  color: #fff;
+  font-size: 23px;
+  margin: 32px 0 0;
+    font-weight: bold;
+    line-height: 33px;
+    text-align: center;
+    z-index: 80;
+    
 }
