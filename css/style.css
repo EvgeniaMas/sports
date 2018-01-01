@@ -1,16 +1,61 @@
 @font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+font-family: "Play Bold";
+src: url("../fonts/play-bold.eot"); /* Для поддержки браузера IE6+ */
+src: url("../fonts/play-bold.eot.eot?#iefix") format("embedded-opentype"), 
+url("../fonts/play-bold.woff") format("woff"), 
+url("../fonts/play-bold.ttf") format("truetype"),
+url("../fonts/play-bold.svg#arbat") format("svg"),
+url("../fonts/play-bold.otf") format("otf"); 
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "SFUIDisplay-Light";
+src: url("../fonts/SFUIDisplay-Light.eot"); /* Для поддержки браузера IE6+ */
+src: url("../fonts/SFUIDisplay-Light.eot?#iefix") format("embedded-opentype"), 
+url("../fonts/SFUIDisplay-Light.woff") format("woff"), 
+url("../onts/SFUIDisplay-Light.ttf") format("truetype"),
+url("../fonts/SFUIDisplay-Light.svg#arbat") format("svg"),
+url("../fonts/SFUIDisplay-Light.woff2"../) format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+    
+@font-face {
+font-family: "SFUIDisplay-Ultra";
+src: url("../fonts/SFUIDisplay-Ultra.eot"); /* Для поддержки браузера IE6+ */
+src: url("../fonts/SFUIDisplay-Ultra.eot?#iefix") format("embedded-opentype"),
+url("../fonts/SFUIDisplay-Ultra.woff") format("woff"), 
+url("../fonts/SFUIDisplay-Ultra.ttf") format("truetype"),
+url("../fonts/SFUIDisplay-Ultra.svg#arbat") format("svg");
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: "SFUIDisplay-Thin";
+src: url("../fonts/SFUIDisplay-Thin.eot"); /* Для поддержки браузера IE6+ */
+src: url("../fonts/SFUIDisplay-Thin.eot?#iefix") format("embedded-opentype"), 
+url("../fonts/SFUIDisplay-Thin.woff") format("woff"),
+url("../fonts/SFUIDisplay-Thin.ttf") format("truetype"),
+url("../fonts/SFUIDisplay-Thin.svg#arbat") format("svg");
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+
+
+@font-face {
+  font-family: 'Play Bold';
+  src: url("../fonts/.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
@@ -296,13 +341,16 @@ body {
   display: inline;
 }
 #fh5co-header nav ul li a {
-  font-size: 18px;
+  font-size: 16px;
   color: #545454;
-  font-weight: 400;
+  font-family: "Play Bold";
+  color: #545454;
+  text-transform: uppercase;
+  /*text-align: right;*/
 }
 #fh5co-header nav ul li a:hover {
   color: #000;
-  font-weight: bold;
+  font-size: 17px;
   padding-bottom: 10px;
   border-bottom: 5px solid #ffb400;
 }
@@ -506,6 +554,9 @@ body {
   font-weight: 300;
 }
 
+
+
+
 #fh5co-features,
 #fh5co-features-2,
 #fh5co-features-3,
@@ -572,11 +623,11 @@ body {
   overflow: hidden;
   z-index: 9;
   margin-bottom: 30px;
-  -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+ /* -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
   -o-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);*/
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
@@ -617,11 +668,11 @@ body {
   transition: 0.5s;
 }
 #fh5co-projects .fh5co-project-item:hover, #fh5co-projects .fh5co-project-item:focus {
-  -webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+  /*-webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
   -o-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);*/
   text-decoration: none;
 }
 #fh5co-projects .fh5co-project-item:hover img, #fh5co-projects .fh5co-project-item:focus img {
@@ -1501,6 +1552,29 @@ button.header_info__button {
   border-radius: 30px;
  }
 
+
+  .popup_button {
+  color: rgb(255, 180, 0);
+  background-color: transparent;
+  display: block;
+  
+  width: 60%;
+  height: 42px;
+  border-radius: 30px;
+  border: 2px solid rgb(255, 180, 0);
+  margin:auto;
+  margin-top: 25px;
+    
+ }
+
+ .popup_button:hover {
+  color: #fff;
+  background-color: rgb(255, 180, 0);
+ 
+  
+  border-radius: 30px;
+ }
+
 .yellow_text {
   color: #ffb400;
 }
@@ -1508,6 +1582,7 @@ button.header_info__button {
 ul.product_desription{
    
   list-style-type: none; 
+  clear: left;
   font-size: 13px;
   -webkit-margin-before: 5px;
     -webkit-margin-after: 5px;
@@ -1515,8 +1590,10 @@ ul.product_desription{
     -webkit-margin-end: 5px;
     -webkit-padding-start: 5px;
    margin-bottom: 45px;
-
+   min-height: 200px;
+   
 }
+
 
 ul.product_desription li:before { 
   content: "";
@@ -1565,6 +1642,7 @@ span.price {
    color: rgb(255, 180, 0);
    text-align: center;
    padding-top: 16px;
+   margin-bottom: 20px;
    font-weight: bold;
 }
 
@@ -1572,6 +1650,8 @@ span.price {
   display: block;
   margin: auto!important;
   padding-bottom: 38px;
+  max-height: 282px;
+  max-width: 136px;
  
 }
 .slider_base {
@@ -1621,7 +1701,7 @@ img.slider_items {
 
 
 .popup {
-    background: none repeat scroll 0 0 #e1e1e1;
+    background: none repeat scroll 0 0 #fff;
     border: 1px solid #808040;
     left: 50%;
     margin-left: -190px;
@@ -1629,92 +1709,170 @@ img.slider_items {
     position: fixed;
     top: 80px;
     width: 390px;
-    min-height:360px; 
+    min-height: 360px;
     z-index: 5002;
     display: none;
+    border-radius: 20px;
 }
-
-#back_call_popup {
-  
-  height: 100%;
-  padding-left: 12px;
-  padding-right: 12px;
-  height: 400px;
-
-}
-
-
-.popup h4 {
-    margin-bottom: 4px;
-  }
-  .popup form {
-    padding: 30px 0 0 0;
-  }
-  .popup input[type="text"]{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.87);
+.popup_inputs {
     display: block;
-    width: 100%;
-    margin-bottom: 20px;
-    border: 1px solid #D9D9D9;
-      display: inline-block;
-      height: 60px;
-      line-height: 60px;
-      padding: 0;
-      vertical-align: middle;
-      color: #747373;
-      text-align: left;
-      font-weight: bold;
-      font-size: 1rem;
-      padding-left: 12px;
-  }
-  
-  
-  .popup .alignCenter {
-    margin-top: 30px;
-  }
-  .popup textarea {
-    display: block;    
-    margin-bottom: 10px;
-    text-align: left;
-    width: 100%;
-    border: 1px solid #D9D9D9;
-    
-  }
-
-
-#blindLayer {
-background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
-bottom: 0;
-left: 0;
-position: fixed;
-right: 0;
-top: 0;
-z-index: 3001;
-display: none;
-height: 100%;
-width: 100%;
-}
-
-.thanks {
-  position: relative;
-  color: #fff;
-  margin-top: 30vh;
-  font-size: 3rem;  
-  line-height: 50px;
-  text-align: center;
-   z-index: 81;
-   
-}
-
-.thanks_text {
-  position: relative;
-  color: #fff;
-  font-size: 23px;
-  margin: 32px 0 0;
-    font-weight: bold;
-    line-height: 33px;
+    margin: auto;
+    background-color: #fff !important;
+    min-height: 20px;
+    color: #000 !important;
+    font-size: 16px;
+    border: 2px solid #5b5757 !important;
     text-align: center;
-    z-index: 80;
-    
+    width: 80%}
+#blindLayer {
+    background: none repeat scroll 0 0 rgba(0,  0,  0,  0.8);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1001;
+    display: none;
+    height: 100%;
+    width: 100%}
+.close1 {
+    background: url('../images/close.png') no-repeat 0px 0px;
+    background-size: contain;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
+.user_form {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(255, 180, 0);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+
+  }
+p.user_form {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+.page_thank {
+    height: 100vh;
+    width: 100vw;
+    padding-top: 200px;
+    color: #848484;
+    background-image: url(images/thanks.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.thanks_words {
+    color: #848484;
+    text-align: center;
+    display: block;
+    font-family: "Open Sans Bold";
+    font-size: 24px;
+    width: 100vw;
+    color: #000;
+}
+
+.thanks_words_main {
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+/*h3.main_feature {
+    color: #000 !important;
+    font-family: "Open Sans Bold",  Helvetica,  arial;
+    text-transform: uppercase;
+}
+.inner_call {
+    width: 100%}
+.call_back {
+    display: block;
+    text-align: left;
+}
+button.special {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}*/
+.model {
+    font-size: 1.5rem;
+    font-family: "Open Sans Bold",  Helvetica,  arial;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+
+.macbook {
+    color: #848484;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.macbook_name {
+    margin-top: 20px;
+}
+
+.advantage {
+    text-align: center;
+}
+.description {
+    line-height: 2.5rem;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 20px;
+    color: #fff;
+    font-family: 'Roboto Regular';
+    font-size: 1.3rem;
+}
+
+.line {
+  padding-top: 15px;
+}
+
+.line:after {
+    content: '';
+    display: inline-block;
+    clear: both;
+    height: 5px;
+    background-color: rgb(255, 180, 0);
+    width: 100%;
+    margin: auto;
+}
+
+.section_title {
+  display: block;
+  float: left;
+  color: rgb(255, 180, 0);
+  text-align: left;
+}
+
+.section_subtitle {
+  display: inline-block;
+  float: left;
+  color: #fff;
+  background-color: rgb(255, 180, 0);
+  padding: 15px 19px;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.ideal {
+  text-transform: uppercase;
+  color: #2d2d2d;
+}
+
