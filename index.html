@@ -33,7 +33,7 @@
 	<![endif]-->
 	</head>	
 	<body>	
-	<!-- Loader -->
+<!-- Loader -->
 <div class="fh5co-loader"></div>	
 <div id="fh5co-page">
 <header class="container">
@@ -45,6 +45,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
+          <span >Меню </span>
         </button>
               <a  class="navbar-brand" href="#"><img id="img_logo" src="images/logo.png" alt="Логотип">
       </a>
@@ -54,10 +55,10 @@
       	<div class="col-md-6 col-sm-6 col-xs-4">
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Товары</a></li>
-          <li><a href="#">Отзывы</a></li>
-          <li><a href="#">Контакты</a></li>          
+          <li><a class="link2" href="#about">О нас</a></li>
+          <li><a class="link" href="#goods">Товары</a></li>
+          <li><a class="link2" href="#sliders">Отзывы</a></li>
+          <li><a class="link2" href="#map">Контакты</a></li>          
         </ul>
         </div>
       <!--/.nav-collapse -->
@@ -69,12 +70,11 @@
     </div>
     <div class="col-md-2 col-sm-2 col-xs-12">
     	<ul class="nav navbar-nav navbar-right">
-          <li><button id="header_info__button" >Обратный звонок<br>8-900-023-00-00</button></li>
+          <li><button onclick="PopUpShow();" id="header_info__button" >Обратный звонок<br>8-900-023-00-00</button></li>
         </ul>         
       </div>      
     </div><!--/.container-12 -->
-    <!--/.container-fluid -->  
-<!-- </div> -->
+   
 </nav>
 </header>
 <section id="fh5co-hero" class="js-fullheight" style="background-image: url(images/main.png); background-position: top center; background-size: cover; height: 819px!important" data-next="yes">
@@ -122,86 +122,86 @@
 </section>
 <!-- END main screen -->
 <section id="fh5co-features">
-			<div class="container">
-			<div class="col-md-12">
-						<h2 class="section_title animate-box">Особенности</h2><br>
+			<div class="container animate-box">
+			<div class="col-md-12 ">
+				<h2 class="section_title ">Особенности</h2><br>
 			</div>
         <div class="row">
-		   <div class="col-md-6 col-sm-6 col-xs-12">						
-		   		<p class="section_subtitle  animate-box">Высота 240см, Ширина 71см, Вылет от стены 15см <br><span class="ideal">Идельно для всей семьи</span></p>
+		   <div class="col-md-5 col-sm-5 col-xs-12 features_block1">						
+		   		<p class="section_subtitle  animate-box">Высота 240см, Ширина 71см, Вылет от стены 15см <br><span class="ideal">Идеально для всей семьи</span></p>
 		   </div>
-			<div class="col-md-6 col-sm-6 col-xs-12">
+			<div class="col-md-7 col-sm-7 col-xs-12">
 				<div class="line"></div>
 		 	</div>
 		</div>					
 				<div class="row">
-					<div class="col-md-4 col-sm-6 col-xs-12 animate-box">
+					<div class="col-md-4 col-sm-6 col-xs-12">
 						<div class="fh5co-feature">
-							<div class="fh5co-icon">
+							
 
-								<figure class="fh5co-devices animate-box"><img src="images/icon1.png" alt="Преимущества" class="img-responsive"></figure>
-								<!-- <img src="" class="icon-power"> -->
-							</div>
-							<h3 class="adv_description"><span class="yellow_text">ПВХ </span> покрытие перекладин</h3>
+								<figure class="fh5co-devices "><img class="feature-icon" src="images/icon1.png" alt="Преимущества" class="img-responsive"></figure>
+								
+							
+							<h3 class="adv_description"><span class="yellow_text">ПВХ </span>  покрытие <br> перекладин</h3>
 							
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 animate-box">
+					<div class="col-md-4 col-sm-6 col-xs-12 ">
 						<div class="fh5co-feature">
-							<div class="fh5co-icon">
-								<figure class="fh5co-devices animate-box"><img src="images/icon2.png" alt="Преимущества" class="img-responsive"></figure>
-							</div>
-							<h3 class="adv_description"><span class="yellow_text">Цвет</span>  антик серебро или белый</h3>
+							
+								<figure class="fh5co-devices "><img class="feature-icon" src="images/icon2.png" alt="Преимущества" class="img-responsive"></figure>
+							
+							<h3 class="adv_description"><span class="yellow_text">Цвет</span>  антик серебро <br> или белый</h3>
 						</div>
 					</div>
-					<div class="clearfix visible-sm-block"></div>			<div class="col-md-4 col-sm-6 col-xs-12 animate-box">
+					<div class="clearfix visible-sm-block"></div>			<div class="col-md-4 col-sm-6 col-xs-12 ">
 						<div class="fh5co-feature">
-							<div class="fh5co-icon">
-								<figure class="fh5co-devices animate-box"><img  src="images/icon3.png" alt="Преимущества" class="img-responsive"></figure>
-							</div>
+							
+								<figure class="fh5co-devices "><img class="feature-icon" src="images/icon3.png" alt="Преимущества" class="img-responsive"></figure>
+							
 							<h3 class="adv_description"><span class="yellow_text">Профиль </span>  40х40,<br> <span class="yellow_text">Усиленная </span>  60х40</h3>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 animate-box">
+					<div class="col-md-4 col-sm-6 col-xs-12 ">
 						<div class="fh5co-feature">
-							<div class="fh5co-icon">
-								<figure class="fh5co-devices animate-box"><img src="images/icon4.png" alt="Преимущества" class="img-responsive"></figure>
-							</div>
-							<h3 class="adv_description"><span class="yellow_text">Болты </span>  М12 c заглушками</h3>
+							
+								<figure class="fh5co-devices "><img class="feature-icon" src="images/icon4.png" alt="Преимущества" class="img-responsive"></figure>
+							
+							<h3 class="adv_description"><span class="yellow_text">Болты </span>  М12 <br> c заглушками</h3>
 						</div>
 					</div>
 					<div class="clearfix visible-sm-block"></div>
-					<div class="col-md-4 col-sm-6 col-xs-12 animate-box">
+					<div class="col-md-4 col-sm-6 col-xs-12 ">
 						<div class="fh5co-feature">
-							<div class="fh5co-icon">
-								<figure class="fh5co-devices animate-box"><img src="images/icon5.png" alt="Преимущества" class="img-responsive"></figure>
-							</div>
-							<h3 class="adv_description"><span class="yellow_text">Антискользящие</span>  ручки</h3>
+							
+								<figure class="fh5co-devices "><img class="feature-icon" src="images/icon5.png" alt="Преимущества" class="img-responsive"></figure>
+							
+							<h3 class="adv_description"><span class="yellow_text">Антискользящие</span><br>  ручки</h3>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 col-xs-12 animate-box">
+					<div class="col-md-4 col-sm-6 col-xs-12 ">
 						<div class="fh5co-feature">
-							<div class="fh5co-icon">
-								<figure class="fh5co-devices animate-box"><img src="images/icon6.png" alt="Преимущества" class="img-responsive"></figure>
+							
+								<figure class="fh5co-devices "><img class="feature-icon img-responsive" src="images/icon6.png" alt="Преимущества"></figure>
 							</div>
-							<h3 class="adv_description"><span class="yellow_text">6 кронштейнов </span> для крепления к стене</h3>
+							<h3 class="adv_description"><span class="yellow_text">6 кронштейнов </span><br> для крепления к стене</h3>
 						</div>
 					</div>
 					<div class="clearfix visible-sm-block"></div>
-				</div>
 				
-				<div class="row row-bottom-padded-md">
+				
+				
 					<div class="col-md-12 text-center">						
 						<p class="about_wall animate-box">Одним из самых популярных спортивных снарядов можно назвать шведскую стенку. Это деревянная или металлическая конструкция в виде лестницы с округлыми перекладинами. Шведская стенка вполне универсальна – она одинаково хорошо подходит и для домашних занятий, и для профессиональных тренировок, и для лечебной физкультуры. <br>Для нее разработаны множество упражнений, которые помогут укрепить и накачать самые разные группы мышц по всему телу – от ног и рук до спины и пресса. </p>
 					</div>
-				</div>
+				
 			</div>
 		</section>	
 
 		<!-- END #fh5co-features -->
 
 <section id="fh5co-projects">
-   <div class="container">
+   <div id="goods" class="container">
 
    	<div class="col-md-12">
 			<h2 class="section_title animate-box">Шведские стенки</h2>
@@ -523,17 +523,17 @@
 	    </div> <!--row--> 
 	</div> <!-- container-->
 </section>		
-<section id="fh5co-testimonials">
+<section id="fh5co-testimonials"  class="animate-box">
 	<div class="container">		
-			<div class="col-md-12 text-center">
-				<div class="about_wall animate-box">Поставить стенку можно где угодно – в спортзале, дома или на улице, она не займет много места. На нее можно навесить дополнительные снаряды, например, турник, брусья, канат и другие. Поэтому шведская стенка подойдет всем, кто заботится о своей физической форме, и тем, кто хочет приобщить к физкультуре своих детей.
+			<div class="col-md-12">
+				<div class="about_walls about_walls2">Поставить стенку можно где угодно – в спортзале, дома или на улице, она не займет много места. На нее можно навесить дополнительные снаряды, например, турник, брусья, канат и другие. Поэтому шведская стенка подойдет всем, кто заботится о своей физической форме, и тем, кто хочет приобщить к физкультуре своих детей.
 				</div>
 			</div>
 			<div class="row animate-box">
 			  <div class="col-md-12 sport_tools">		
 				<div class="col-md-5 col-sm-5 col-xs-12 animate-box horizontal_image">
 					<p class="title2">Шведская стенка R 1</p>
-					<img class="product_image3" src="images/turnik.png" alt="Турник" class="img-responsive">	
+					<img class="img-responsive product_image3" src="images/turnik.png" alt="Турник">	
 				</div>				
 				<div class="col-md-7 col-sm-7 col-xs-12 animate-box">				<ul class="product_desription">
 								<li>Шведская стенка стандарт</li>
@@ -687,28 +687,21 @@
 		<!-- END #fh5co-testimonials -->
 
 <section id="about">
-	<div class="container">
-		<div class="row row-bottom-padded-sm">
-			<div class="col-md-12 text-center">
-				<p class="fh5co-label animate-box">Выбрать и заказать шведскую стенку вы можете на нашем сайте. Здесь вы можете найти как простую недорогую стенку, которую поставить к стене, так и профессиональный спортивный комплекс с различными дополнительными снарядами. Мы расскажем вам, как правильно выбрать стенку для ваших целей и с учетом ваших возможностей. У нас работает быстрая и доступная доставка по всей Москве и в Подмосковье.
+	<div class="container">		
+			<div class="col-md-12">
+				<p class="about_wall">Выбрать и заказать шведскую стенку вы можете на нашем сайте. Здесь вы можете найти как простую недорогую стенку, которую поставить к стене, так и профессиональный спортивный комплекс с различными дополнительными снарядами. Мы расскажем вам, как правильно выбрать стенку для ваших целей и с учетом ваших возможностей. У нас работает быстрая и доступная доставка по всей Москве и в Подмосковье.<br><br>
+				Здесь вы найдете стенки с различными конфигурациями и дополнительными приспособлениями, для любителей и профессионалов, детей и взрослых:
 				</p>
-				<p class="fh5co-label animate-box">Здесь вы найдете стенки с различными конфигурациями и дополнительными приспособлениями, для любителей и профессионалов, детей и взрослых:
-				</p>
-				<div class="fh5co-lead animate-box">	
-					<div class="col-md-7 col-sm-7 col-xs-12 animate-box">
-						
+										
 							<ul class="product_desription">
-								<li>Шведская стенка стандарт</li>
-								<li>Турник три хвата</li>
-								<li>Брусья пресс</li>
-								<li>Скамья</li>
+								<li>На нашем сайте вы можете подобрать решение для любой комнаты в различных ценовых категориях;</li>
+								<li>Вы можете приобрести как готовую шведскую стенку, так и изготовленную под заказ;</li>
+								<li>Наш ассортимент постоянно обновляется и дополняется новыми предложениями от проверенных производителей;</li>
+								<li>аши специалисты доставят стенку на дом и помогут вам правильно установить ее;</li>
 								<li>Упор под штангу</li>
-								<li class="delivery">Бесплатная доставка</li>
-						   </ul>						
+								<li>При желании, вы можете в любое время докупить дополнительные комплектующие к вашей стенке – крепежи, снаряды, маты и другие;</li>
+						   </ul>					
 					</div>
-				</div>
-			</div>
-		</div>
 	</div><!-- container -->					
 </section>
 
@@ -721,11 +714,44 @@
 			<div class="container">
 				<p class="deliver_info">Информация о доставке и оплате товара</p>
 				<ul class="footer_desription">
-					<li>Доставка в регионы осуществляется через транспортные компании «DPD» и «Деловые Линии»</li>
+					<li>Доставка в регионы осуществляется через транспортные компании <br> «DPD» и «Деловые Линии»</li>
 					<br>
 					<li>Самовывоз</li>					
 			   </ul>
+
+			   <div class="col-md-12" >
+		<div class="col-md-6"> </div>
+			<div id="footer_form" class="col-md-6">
+		 		<div class="footer_formborder">
+				  	<h1 class="footermain_activity">Шведская стенка</h1>
+				    <p class="producer footer__producer">от производителя в Москве</p>
+				    <div class="footer__line"></div>
+					<div class="row">
+				      <div class="col-md-1 col-xs-1">
+					    <img src="images/home_icon.png" alt="Иконка">
+					   </div>
+						<div class="col-md-11 col-xs-11 footer__contacts">
+							<p class="advantage_text"><span class="yellow"> Адрес магазина </span> </p>
+							<p class="contacts_info">Россия, Центральный федеральный округ, Москва, ул. Ефремова, 14, стр. 2</p>
+						</div>
+						
+			        </div> <!--row-->
+			        <div class="row">
+			        	<div class="col-md-1 col-xs-1">
+							<img src="images/phone_icon.png" alt="Иконка">
+						</div>
+						<div class="col-md-6 col-xs-6 footer__contacts">
+							<p class="advantage_text"><span class="yellow"> Телефон </span> </p>
+							<p class="contacts_info">8(900) 023-00-00</p>
+						</div>
+				      <div class="col-md-5 col-xs-5">
+				      	<button onclick="PopUpShow();" class="footer_backcall" >обратный звонок</button>
+					  </div>
+			       </div> <!--row-->
 			</div>
+		</div>
+			</div>
+
 		</footer>
 		<!-- END #fh5co-footer -->
 	</div>
@@ -739,9 +765,9 @@
 		 <p  class="close1" style="float:right"></p> </a>
 	  	<form id="back_call_popup" action="call.php" method="POST">
 		  	<p class="macbook">Введите Ваше имя</p>		  	
-		    <input class="popup_inputs" name="user_name" type="text" placeholder="Ваше имя"  required="required" /> <br>
+		    <input class="popup_inputs" name="user_name" type="text" placeholder="имя"  required="required" /> <br>
 		    <p class="macbook">Введите Ваш телефон</p>
-		    <input class="popup_inputs" name="user_phone" type="text" placeholder="Ваш телефон" required="required"/>
+		    <input class="popup_inputs" name="user_phone" type="text" placeholder="телефон" required="required"/>
 		    <button type="submit" class="popup_button">Заказать звонок</button>
 		</form>
 </div>	
@@ -774,6 +800,7 @@
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 	<script src="js/popUp.js"></script>	
+
 	</body>
 </html>
 

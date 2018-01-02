@@ -16,7 +16,7 @@
 	    );
 	};
 
-	// Go to next section
+	//Go to next section
 	var gotToNextSection = function(){
 		var el = $('.fh5co-learn-more'),
 			w = el.width(),
@@ -28,6 +28,27 @@
 	var loaderPage = function() {
 		$(".fh5co-loader").fadeOut("slow");
 	};
+
+	
+$(document).ready(function() {
+		    $("a.link").click(function () {
+		      var clicks = $(this).attr("href");
+		      var scrolls = $(clicks).offset().top;
+		      $('html,body').animate(
+		       { scrollTop: scrolls }
+		       , 2000 );
+		      return false;
+		    });
+		     $("a.link2").click(function () {
+		      var clicks = $(this).attr("href");
+		      var scrolls = $(clicks).offset().top;
+		      $('html,body').animate(
+		       { scrollTop: scrolls }
+		       , 3500 );
+		      return false;
+		    });
+		  });
+	
 
 	// FullHeight
 	var fullHeight = function() {
@@ -219,3 +240,4 @@
 
 
 }());
+
