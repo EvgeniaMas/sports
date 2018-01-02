@@ -370,11 +370,7 @@ body {
   position: relative;
   width: 100%;
 }
-@media screen and (max-width: 480px) {
-  #fh5co-hero {
-    height: 450px;
-  }
-}
+
 #fh5co-hero .fh5co-overlay {
   position: absolute;
   top: 0;
@@ -1437,6 +1433,14 @@ ul.product_desription li:before {
 
 }
 
+/*span.delivery {
+  text-transform: none;
+  color: rgb(255, 180, 0);
+   
+
+}*/
+
+
 
 span.price {
   
@@ -1469,6 +1473,19 @@ span.price {
    font-weight: bold;
 }
 
+.title2 {
+   color: rgb(255, 180, 0);
+   text-align: center;
+   padding-top: 16px;
+   margin-bottom: 20px;
+   line-height: 2rem;
+   font-size: 20px;
+  
+}
+
+
+
+
 .product_image {
   display: block;
   margin: auto!important;
@@ -1477,10 +1494,20 @@ span.price {
   max-width: 136px;
  
 }
+
+.product_image2 {
+    display: block;
+    margin: auto!important;
+    padding-bottom: 8px;   
+    max-width: 280px;
+}
+
+
+
 .slider_base {
-  width: 70%;
+  width: 80%;
   margin:0 auto;
-  background-image: url(../images/slider_back.jpg);
+  background-image: url(../images/slider_back2.jpg);
   background-position: center;
   background-size: contain;
   background-color: blue;
@@ -1498,7 +1525,8 @@ span.price {
 
 #myCarousel {
   width: 80%;
-  margin:0 auto;
+  
+  margin:auto;
 
 }
 
@@ -1506,12 +1534,24 @@ img.slider_items {
   /*min-height: 495px;*/
   display: block;
   
-   height: 50%!important;
-   min-height: 450px;
+  
+   min-height: 250px;
    overflow-y: visible;
    margin-top: -100px!important;
+  -webkit-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
 
 }
+
+
+
+
+
 
 .installed_walls {
   color: #fff;
@@ -1591,29 +1631,38 @@ p.user_form {
 }
 .page_thank {
     height: 100vh;
+    font-family: "Open Sans Bold";
     width: 100vw;
-    padding-top: 200px;
+    padding-top: 7em;
     color: #848484;
-    background-image: url(images/thanks.jpg);
+    background-image: url(../images/thanks.jpg);
     background-size: cover;
     background-position: center center;
 }
+
+.thank_block {
+  background-color: rgb(255, 180, 0);
+  padding: 20px;
+  border-radius: 20px;
+  width: 70%;
+  margin:auto;
+}
+
 .thanks_words {
-    color: #848484;
+    color: #fff;
     text-align: center;
     display: block;
     font-family: "Open Sans Bold";
-    font-size: 24px;
-    width: 100vw;
-    color: #000;
+    font-size: 1.5rem;  
+    
 }
 
 .thanks_words_main {
-    font-size: 42px;
+    font-size: 2.5rem;
     line-height: 50px;
     text-align: center;
     margin: auto;
-    margin-bottom: 35px;
+    margin-bottom: 24px;
 }
 
 /*h3.main_feature {
@@ -1738,8 +1787,10 @@ a.navbar-brand {
 
 .about_wall {
   font-family: "Open Sans Regular";
-  justify-content: justify;
-  text-align: left;
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 10px;
+ 
 }
 
 
@@ -1839,5 +1890,18 @@ button#header_info__button {
   font-family: "Open Sans Bold";
   color: #363636;
   font-size:24px;
+
+}
+
+
+@media screen and (max-width: 480px) {
+  #fh5co-hero {
+    height: 450px;
+  }
+
+.thanks_words_main {
+    font-size: 2.2rem;
+    
+}
 
 }
