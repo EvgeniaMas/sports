@@ -4800,8 +4800,8 @@ tbody.collapse.in {
 
 .navbar-toggle {
   position: relative;
-  float: right;
-  margin-right: 15px;
+  float: left;
+  margin-left: 15px;
   padding: 9px 10px;
   margin-top: 10.5px;
   margin-bottom: 10.5px;
@@ -4809,6 +4809,8 @@ tbody.collapse.in {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  
+
 }
 .navbar-toggle:focus {
   outline: 0;
@@ -5006,8 +5008,8 @@ tbody.collapse.in {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #fff;
+  border: none;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -6891,6 +6893,7 @@ button.close {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-repeat: repeat-x;*/
   left: -250px;
+  
   right: auto;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
 }
@@ -6920,7 +6923,17 @@ button.close {
   margin-top: -10px;
   z-index: 5;
   display: inline-block;
+  color: #f6d995;
 }
+
+
+.carousel-control .glyphicon-chevron-left:hover,
+.carousel-control .glyphicon-chevron-right:hover {
+  
+  color: #fff;
+}
+
+
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
   left: 50%;
@@ -6970,8 +6983,8 @@ button.close {
 }
 .carousel-indicators .active {
   margin: 0;
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   background-color: #fff;
 }
 
@@ -7017,7 +7030,7 @@ button.close {
   }
 
   .carousel-indicators {
-    bottom: 20px;
+    bottom: -4em;
   }
 }
 .clearfix:before, .clearfix:after {
