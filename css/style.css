@@ -1502,6 +1502,14 @@ span.price {
     max-width: 280px;
 }
 
+.product_image3 {
+    display: block;
+    margin: auto!important;
+    padding-bottom: 8px;   
+    max-width: 400px;
+}
+
+
 
 
 .slider_base {
@@ -1891,6 +1899,20 @@ button#header_info__button {
   color: #363636;
   font-size:24px;
 
+}
+
+
+div.sport_tools {
+  border: 2px solid red;
+  border-left: 3px solid rgb(255, 180, 0);
+  /*padding-right: 0!important;
+  padding-left: 0!important;*/
+  box-sizing: border-box;
+}
+
+.horizontal_image {
+  
+  border-right: 2px solid blue;
 }
 
 
