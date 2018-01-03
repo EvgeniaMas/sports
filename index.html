@@ -39,6 +39,7 @@
 <header class="container">
   <nav class="navbar navbar-default">
     <!-- <div class="container-fluid"> -->
+    
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
           <span class="sr-only">Меню</span>
@@ -47,13 +48,14 @@
           <span class="icon-bar"></span>
           <span >Меню </span>
         </button>
-              <a  class="navbar-brand" href="#"><img id="img_logo" src="images/logo.png" alt="Логотип">
+          <a  class="navbar-brand" href="#"><img id="img_logo" src="images/logo.png" alt="Логотип">
       </a>
       </div>  
+ 
 
       <div class="col-md-12">
-      	<div class="col-md-6 col-sm-6 col-xs-4">
-      <div id="navbar" class="navbar-collapse collapse">
+      	<div class="col-md-6 col-sm-6 col-xs-6">
+        <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
           <li><a class="link2" href="#about">О нас</a></li>
           <li><a class="link" href="#goods">Товары</a></li>
@@ -62,22 +64,24 @@
         </ul>
         </div>
       <!--/.nav-collapse -->
-  </div>
-  <div class="col-md-4 col-sm-4 col-xs-12">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a id="header_info__text" href="#">Шведские стенки в Москве, 123987, Гоголя, 44</a></li>
-        </ul>
+ </div>
+ <div class="col-md-3 col-sm-3 col-xs-6">
+       
+          <p id="header_info__text">Шведские стенки в Москве, 123987, Гоголя, 44</p>
+          
     </div>
-    <div class="col-md-2 col-sm-2 col-xs-12">
-    	<ul class="nav navbar-nav navbar-right">
-          <li><button onclick="PopUpShow();" id="header_info__button" >Обратный звонок<br>8-900-023-00-00</button></li>
-        </ul>         
-      </div>      
+    <div class="col-md-3 col-sm-3 col-xs-12">
+    	 <button onclick="PopUpShow();" id="header_info__button" >Обратный звонок<br><span class="phone">8-900-023-00-00</span></button>
+         
+            
+      </div> 
+
+
     </div><!--/.container-12 -->
    
 </nav>
 </header>
-<section id="fh5co-hero" class="js-fullheight" style="background-image: url(images/main.png); background-position: top center; background-size: cover; height: 819px!important" data-next="yes">
+<section id="fh5co-hero" class="js-fullheight" style="background-image: url(images/main.png); background-position: top center; background-size: cover; min-height: 819px!important" data-next="yes">
 	<!-- <div class="fh5co-overlay"></div> -->
 	<div class="container">
 	 <div class="fh5co-intro js-fullheight">
@@ -227,7 +231,7 @@
 					<li class="list__item">Кольца</li>
 					<li class="list__item">Веревочная лестница</li>	
 					<li class="list__item">Канат</li>
-					<li class="list__item">Мат в комплектацию не <span class="delivery">входит</span></li>		
+					<li class="list__item">Мат в комплектацию  <span class="delivery">не входит</span></li>		
 				 </ul>				
 				<span class="price">6700 &#x584;</span>
 				<button class="buy_button">Заказать</button>
@@ -606,7 +610,8 @@
 
 <section id="sliders" class="container-fluid no-js-fullheight">			
 <h2 class="installed_walls">Установленные шведские стенки</h2>											
-	<div class="container">				
+	<div class="container">
+	<div class="sliders__border">				
 		<div class="slider_base">
 			<!-- Карусель -->
 			<div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
@@ -671,20 +676,55 @@
 
 
 			  </div>
-			  <!-- Навигация для карусели -->
-			  <!-- Кнопка, осуществляющая переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
-			  <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-			    <span class="glyphicon glyphicon-chevron-left"></span>
-			  </a>
-			  <!-- Кнопка, осуществляющая переход на следующий слайд с помощью атрибута data-slide="next" -->
-			  <a class="carousel-control right" href="#myCarousel" data-slide="next">
-			    <span class="glyphicon glyphicon-chevron-right"></span>
+			  
+	<a class="carousel-control left" href="#myCarousel" data-slide="prev">	   
+	   <span class="arrows__left"></span>
+	  </a>	  
+	  <a class="carousel-control right" href="#myCarousel" data-slide="next">
+	     <span class="arrows__right"></span>
+	  </a>  
 			  </a>
 			</div>
 		</div>
 	</div>
 </section>
 		<!-- END #fh5co-testimonials -->
+
+
+<div class="invisible_section container">	
+	<div class="col-md-12" >
+		<div id="footer_form2">			
+		 	<div class="footer_formborder">
+				  	<h1 class="footermain_activity">Шведская стенка</h1>
+				    <p class="producer footer__producer">от производителя в Москве</p>
+				    <div class="footer__line"></div>
+					<div class="row">
+				      <div class="col-md-1 col-xs-1">
+					    <img src="images/home_icon.png" alt="Иконка">
+					   </div>
+						<div class="col-md-11 col-xs-11 footer__contacts">
+							<p class="advantage_text"><span class="yellow"> Адрес магазина </span> </p>
+							<p class="contacts_info">Россия, Центральный федеральный округ, Москва, ул. Ефремова, 14, стр. 2</p>
+						</div>						
+			        </div> <!--row-->
+			        <div class="row">
+			        	<div class="col-md-1 col-xs-1">
+							<img src="images/phone_icon.png" alt="Иконка">
+						</div>
+						<div class="col-md-6 col-xs-6 footer__contacts">
+							<p class="advantage_text"><span class="yellow"> Телефон </span> </p>
+							<p class="contacts_info">8(900) 023-00-00</p>
+						</div>
+				      <div class="col-md-5 col-xs-5">
+				      	<button onclick="PopUpShow();" class="footer_backcall" >обратный звонок</button>
+					  </div>
+			       </div> <!--row-->
+			</div>
+		</div>
+	</div>
+</div>
+
+
 
 <section id="about">
 	<div class="container">		
@@ -693,7 +733,7 @@
 				Здесь вы найдете стенки с различными конфигурациями и дополнительными приспособлениями, для любителей и профессионалов, детей и взрослых:
 				</p>
 										
-							<ul class="product_desription">
+							<ul class="product_desription product_service">
 								<li>На нашем сайте вы можете подобрать решение для любой комнаты в различных ценовых категориях;</li>
 								<li>Вы можете приобрести как готовую шведскую стенку, так и изготовленную под заказ;</li>
 								<li>Наш ассортимент постоянно обновляется и дополняется новыми предложениями от проверенных производителей;</li>
@@ -702,13 +742,22 @@
 								<li>При желании, вы можете в любое время докупить дополнительные комплектующие к вашей стенке – крепежи, снаряды, маты и другие;</li>
 						   </ul>					
 					</div>
+				</div>
 	</div><!-- container -->					
 </section>
+
+
+
+
 
 <div id=map>	  
 	<script type="text/javascript" charset="utf-8" defer src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A323ab1967460e114690900206fc5d5ebe32130872b023cdbf24aef22c4e6f457&amp;width=100%25&amp;height=488&amp;lang=ru_RU&amp;scroll=true">
 	</script>
 </div>
+
+
+
+
 
 <footer id="fh5co-footer">
 			<div class="container">
@@ -719,7 +768,7 @@
 					<li>Самовывоз</li>					
 			   </ul>
 
-			   <div class="col-md-12" >
+	<div class="col-md-12" >
 		<div class="col-md-6"> </div>
 			<div id="footer_form" class="col-md-6">
 		 		<div class="footer_formborder">
@@ -750,12 +799,14 @@
 			       </div> <!--row-->
 			</div>
 		</div>
-			</div>
+	</div>
 
 		</footer>
 		<!-- END #fh5co-footer -->
 	</div>
 	<!-- END wrapper -->
+
+ 
 
 <div id="blindLayer" class="container-fluid"></div>
 <!-- Попапы заказа обратного звонка  и покупок-->
@@ -785,22 +836,30 @@
 		  </form>
 </div>	
 <!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.min.js" defer></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.easing.1.3.js" defer></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js" defer></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.waypoints.min.js" defer></script>
 	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/jquery.flexslider-min.js" defer></script>
 	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>	
+	<script src="js/jquery.magnific-popup.min.js" defer></script>
+	<script src="js/magnific-popup-options.js" defer></script>	
 	<!-- Main JS -->
-	<script src="js/main.js"></script>
-	<script src="js/popUp.js"></script>	
+	<script src="js/main.js" defer></script>
+	<script src="js/popUp.js" defer></script>	
 
 	</body>
 </html>
+
+
+
+<!-- 	ПРОСИЛИ ПОСТАВИТЬ В РАЗМЕТКУ ФРЕЙМ ДЛЯ ВИДЕО НА БУДУЩЕЕ
+
+	<div class="container">
+                    <iframe class="youtube" src="https://www.youtube.com/embed/FhwY_FsKuRA?rel=0&amp;modestbranding=1&amp;ap=%2526fmt%3D18&amp;autohide=1&amp;fs=1" allowfullscreen></iframe>
+     </div>   --> 
 
