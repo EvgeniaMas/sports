@@ -1354,6 +1354,20 @@ span.price {
   background-repeat: no-repeat;
 }
 
+.priceLeft {
+  color: #fff;  
+  padding: 12px 12px;
+  line-height: 13px;
+  background-image: url(../images/pricetagLeft.png); 
+  background-position: right center;
+  background-size: contain;
+  margin-right: -8px;
+  background-repeat: no-repeat;
+
+}
+
+
+
 .fh5co-text {
   background-color: #fff;
   
@@ -1531,7 +1545,7 @@ img.slider_items {
     min-height: 40px;
     color: #939090 !important;
     font-size: 16px;
-    border: 2px solid #b6adad !important;
+    border: 1px solid #b6adad !important;
     text-align: center;
     width: 80%}
 #blindLayer {
@@ -1988,16 +2002,24 @@ padding-left: 2em;
 
 
 div.sport_tools {
-  border: 2px solid red;
+  border: 1px solid #ebebeb;
   border-left: 3px solid rgb(255, 180, 0);
-  /*padding-right: 0!important;
-  padding-left: 0!important;*/
   box-sizing: border-box;
+  margin-bottom:30px;
+  padding-bottom: 36px;
 }
+
+
+div.sport_tools_even {
+border-right: 3px solid rgb(255, 180, 0);
+border-left: 1px solid #ebebeb;
+}
+
+
 
 .horizontal_image {
   
-  border-right: 2px solid blue;
+  border-right: 1px solid #ebebeb;
 }
 
 div.invisible_section {
