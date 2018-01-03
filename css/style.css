@@ -1880,7 +1880,9 @@ height: 100%;
   ul.product_desription {
     min-height: auto;
   }
-   
+   .video_screen__container {
+width:90%;
+
   }
 
 
@@ -1995,6 +1997,11 @@ border-left: none;
   
 
 }
+
+ .video_screen__container {
+width:98%;
+
+  }
 
 .section_title {
     font-size: 28px;
