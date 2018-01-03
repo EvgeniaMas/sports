@@ -1249,8 +1249,8 @@ padding: 7em 0 10px 0;
  }
 
 button.buy_button2 {
-  
-    margin-right: 50px;
+   
+    margin-left: 70%;
 
 }
 
@@ -1297,7 +1297,7 @@ ul.product_desription{
    font-family: "Open Sans Regular";
   text-align: justify;
   font-size: 16px;
-  color: rgb(54, 54, 54);
+  color: #333333;
   line-height: 1.444;
   letter-spacing: 1.4;
   
@@ -1307,8 +1307,9 @@ ul.product_desription{
     -webkit-margin-end: 5px;
     -webkit-padding-start: 5px;
    margin-bottom: 45px;
-   min-height: 252px;
+   min-height: 266px;
    padding-left: 20px;
+
    
 }
 
@@ -1442,9 +1443,9 @@ span.priceLeft {
 
 .product_image3 {
     display: block;
-    margin: auto!important;
+    margin-left: 10px;
     padding-bottom: 8px;   
-    max-width: 400px;
+    max-width: 250px;
 }
 
 
@@ -1543,7 +1544,11 @@ img.slider_items {
 .installed_walls {
   color: #fff;
   text-align: center;
+  font-family: "Open Sans Bold";
+  font-size: 36px;
+
 }
+
 
 #about {
   background-color: #fff;
@@ -1573,7 +1578,9 @@ img.slider_items {
     font-size: 16px;
     border: 1px solid #b6adad !important;
     text-align: center;
-    width: 80%}
+    width: 80%;
+    border-radius: 5px;
+  }
 #blindLayer {
     background: none repeat scroll 0 0 rgba(0,  0,  0,  0.8);
     bottom: 0;
@@ -1744,7 +1751,7 @@ div.line {
   margin-left: 15px;
 font-size: 16px;
 font-family: "Open Sans Bold";
-  
+  text-align: left;
 }
 
 
@@ -1847,7 +1854,7 @@ min-height: 819px!important;
   margin-right: 10px;
   font-family: "Play Regular";
   font-size: 18px;
-  text-align: center;
+  
   margin-top: 20px;
   
  
@@ -1932,10 +1939,6 @@ button#header_info__button {
   
   margin:auto;
 }
-
-
-
-
 
 .footer_formborder {
   border: 1px solid #ecb32a;
@@ -2052,7 +2055,7 @@ div.sport_tools {
   border-left: 3px solid rgb(255, 180, 0);
   box-sizing: border-box;
   margin-bottom:30px;
-  padding-bottom: 36px;
+  padding-bottom: 10px;
 
 }
 
@@ -2073,7 +2076,13 @@ border-left: 1px solid #ebebeb;
 .horizontal_image {
   
   border-right: 1px solid #ebebeb;
+
 }
+
+.horizontal_image2 {
+  border-left: 1px solid #ebebeb;
+}
+
 
 div.invisible_section {
   display: none;
@@ -2085,6 +2094,7 @@ div.invisible_section {
   ul.product_desription {
     min-height: auto;
   }
+   
   }
 
 
@@ -2097,11 +2107,10 @@ div.invisible_section {
   display: block;
 }
 
-#goods,
-#goods_part2 {
-  width: 90%;
-  margin:auto;
-}
+/*#header_info__text {
+    display: none;
+  }*/
+
 
 
 
@@ -2122,9 +2131,7 @@ div.invisible_section {
     
   }
 
-  #header_info__text {
-    display: none;
-  }
+ 
 
   button#header_info__button{
     float: none;
@@ -2185,8 +2192,10 @@ div.sport_tools_even {
 border-right: none;
 border-left: none;
 }
-.horizontal_image {
+.horizontal_image,
+.horizontal_image2 {
   border-right: none;
+  border-left:none;
 }
 
 }
@@ -2195,6 +2204,37 @@ border-left: none;
 
 
 @media screen and (max-width: 480px) {
+.contacts_info {
+  font-size: 14px;
+  
+  line-height: 2;
+  
+
+}
+
+
+.section_title {
+    font-size: 28px;
+    line-height: 36px;
+    
+}
+
+
+button.buy_button2,
+button.buy_button {
+   
+    margin-left: 30%;
+
+}
+
+button#header_info__button {
+    width: 180px;
+    height: 61px;
+    font-size: 16px;
+   
+}
+
+
 
 .feature-icon {
   max-width: 210px;
@@ -2209,8 +2249,44 @@ border-left: none;
 
 .thanks_words_main {
     font-size: 2.2rem;
+
+  }
+
+.footer_backcall {
+       float: none;
+       display: block;
+   margin:auto;
+}
+
+
+   #goods,
+#goods_part2 {
+  width: 90%;
+  margin:auto;
+}
+ 
+#header_info__text {
+    
+    padding-right: 0px;
+    border-bottom: none;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+    font-size: 14px;
     
 }
+
+.popup {
+    margin-left: -150px;
+    padding: 25px 8px;
+    position: fixed;
+    top: 80px;
+    width: 300px;
+    min-height: 360px;
+    
+}
+
 
 }
 
@@ -2229,6 +2305,8 @@ border-left: none;
   
   
 }
+
+
 
 
 
